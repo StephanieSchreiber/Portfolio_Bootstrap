@@ -1,0 +1,25 @@
+.selector-for-some-widget {
+    box-sizing: content-box;
+  }
+
+  h1{
+
+      color: white;
+  }
+.header_pic {
+    background-image:url('../images/Phone.png');
+    background-repeat:no-repeat;
+    background-size:cover;
+    height: 500px;
+    background-position: top center;
+}
+header {
+    background-color: black;
+   
+}
+
+nav{
+    background-color: rgb(21,27,67,0.5);
+    text-align: center;
+    /* display: inline-block; */
+}

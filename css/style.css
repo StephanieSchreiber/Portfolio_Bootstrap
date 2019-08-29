@@ -2,6 +2,10 @@
     box-sizing: content-box;
   }
 
+  .show_div{
+
+  }
+/* glowing heading */
   h1{
     font-size: 100px;
     color: white;
@@ -27,7 +31,9 @@
     to {
       text-shadow: 0 0 20px #fff, 0 0 30px #02B6A6, 0 0 40px #02B6A6, 0 0 50px #02B6A6, 0 0 60px #02B6A6, 0 0 70px #02B6A6, 0 0 80px #02B6A6;
     }
-  }
+  } /* glowing heading END*/
+
+/* header background (phones)*/
 .header_pic {
     background-image:url('../images/Phone.png');
     background-repeat:no-repeat;
@@ -36,22 +42,36 @@
     background-position: top center;
 }
 header {
-    background-color: black;
-   
-}
+    background-color: black;  
+}/* header background (phones) END*/
+
+/* custom Navigation*/
 .navbar-toggler{
     width: 100%;
     position: relative;
     margin: 0 auto !important;
     background-color: rgb(21,27,67,0.5);
-
 }
-
 
 nav{
-    background-color: rgb(21,27,67,0.5);
-   
+    background-color: rgb(21,27,67,0.5);   
+} /* custom Navigation END*/
+
+/* carousel container*/
+.container-white{
+    color: #1F1B43;
 }
+
+.container-white .carousel-control-prev {
+    color: #1F1B43;
+}
+
+.container-blue {
+    background-color: #1F1B43;
+    color: #fff;
+}
+
+
 
 @media (min-width: 400px) { 
     .header_pic{

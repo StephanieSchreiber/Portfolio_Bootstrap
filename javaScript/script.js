@@ -1,5 +1,5 @@
 $('buttonCollapse').parent().click(function () {
-            if($('buttonCollapse').hasClass('about_more'))
+            if($('buttonCollapse span').hasClass('about_more'))
             {
                $('buttonCollapse').html('<span class="about_less">Less Info</span>'); 
             }

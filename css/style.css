@@ -79,10 +79,10 @@ nav{
     background-color: #02B6A6;
     }
 .container-white .about_more{
-        color: black;
+        color: white;
     }
 .container-white .about_less{
-        color:#ff7300;
+        color:orangered;
     }
 
 /* button collaps*/

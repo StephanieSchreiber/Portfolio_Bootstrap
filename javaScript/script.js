@@ -1,10 +1,10 @@
-$('button_moreInfo span').parent().click(function () {
-        if($('button_moreInfo  span').hasClass('glyphicon-chevron-down'))
-        {
-           $('button_moreInfo ').html('<span class="glyphicon glyphicon-chevron-up"></span> Less Info'); 
-        }
-        else
-        {      
-            $('button_moreInfo ').html('<span class="glyphicon glyphicon-chevron-down"></span> More Info'); 
-        }
-        });
+$('buttonCollapse').parent().click(function () {
+            if($('buttonCollapse').hasClass('about_more'))
+            {
+               $('buttonCollapse').html('<span class="about_less">Less Info</span>'); 
+            }
+            else
+            {      
+                $('buttonCollapse').html('<span class="about_more">More Info</span>'); 
+            }
+    });

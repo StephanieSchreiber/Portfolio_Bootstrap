@@ -73,7 +73,16 @@ nav{
     color: #fff;
 }
 
-
+.container-white button{
+    background: #02B6A6;
+    }
+    .about_more{
+        color: white;
+    }
+    .about_less{
+        color: white;
+    }
+}
 
 @media (min-width: 400px) { 
     .header_pic{

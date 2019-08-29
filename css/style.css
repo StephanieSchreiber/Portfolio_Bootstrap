@@ -3,8 +3,30 @@
   }
 
   h1{
-
-      color: white;
+    font-size: 100px;
+    color: white;
+    text-align: center;
+    justify-content: center;
+    margin-top: 30%;
+      
+  }
+  .glow {
+    font-size: 80px;
+    color: #fff;
+    text-align: center;
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+    -moz-animation: glow 1s ease-in-out infinite alternate;
+    animation: glow 1s ease-in-out infinite alternate;
+  }
+  
+  @-webkit-keyframes glow {
+    from {
+      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #05968A, 0 0 40px #05968A, 0 0 50px #05968A, 0 0 60px #05968A, 0 0 70px #05968A;
+    }
+    
+    to {
+      text-shadow: 0 0 20px #fff, 0 0 30px #02B6A6, 0 0 40px #02B6A6, 0 0 50px #02B6A6, 0 0 60px #02B6A6, 0 0 70px #02B6A6, 0 0 80px #02B6A6;
+    }
   }
 .header_pic {
     background-image:url('../images/Phone.png');
@@ -17,9 +39,66 @@ header {
     background-color: black;
    
 }
+.navbar-toggler{
+    width: 100%;
+    position: relative;
+    margin: 0 auto !important;
+    background-color: rgb(21,27,67,0.5);
+
+}
+
 
 nav{
     background-color: rgb(21,27,67,0.5);
-    text-align: center;
-    /* display: inline-block; */
+   
 }
+
+@media (min-width: 400px) { 
+    .header_pic{
+        height: 167px;
+    }
+    .glow {
+        font-size: 40px;
+        margin-top: 25%;
+    }
+ }
+
+@media (min-width: 576px) { 
+    .header_pic{
+        height: 240px;
+    }
+    .glow {
+        font-size: 50px;
+        margin-top: 28%;
+    }
+ }
+
+@media (min-width: 768px) { 
+    .header_pic{
+        height: 320px;
+    }
+    .glow {
+        font-size: 70px;
+        margin-top: 28%;
+    }
+ }
+
+@media (min-width: 992px) { 
+    .header_pic{
+        height: 414px;
+    }
+    .glow {
+        font-size: 80px;
+        margin-top: 28  %;
+    }
+}
+
+@media (min-width: 1200px) { 
+    .header_pic{
+        height: 500px;
+    }
+    .glow {
+        font-size: 100px;
+        margin-top: 32%;
+    }
+ }

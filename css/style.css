@@ -14,6 +14,11 @@
     margin-top: 30%;
       
   }
+
+  h2{
+    text-align: center;
+    margin: 5%; 
+  }
   .glow {
     font-size: 80px;
     color: #fff;

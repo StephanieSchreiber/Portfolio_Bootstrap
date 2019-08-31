@@ -93,7 +93,38 @@ nav{
     background: #02B6A6;
     }
 
+/* Contact Form / color */
+    .bg-info {
+        background-color: #f7c86b!important;
+    }
 
+    .text-white {
+        color: #1F1B43!important;
+    }
+
+    .btn-info {
+        color: #1F1B43;
+        background-color: #f7c86b;
+        border-color: #f7c86b;
+    }
+    .btn-info:hover {
+        color: #1F1B43;
+        background-color: #e49e12;
+        border-color: #e49e12;
+    }
+
+    .border-primary {
+        border-color: #fff!important;
+    }
+
+    .text-info {
+        color: #e49e12!important;
+    }
+
+    .container-yellow {
+        background-color: #e49e12;
+        padding-top: 3%;
+    }
 
 /* footer*/
 .social:hover {
